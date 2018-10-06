@@ -253,6 +253,7 @@
     <Content Include="Content\images\icon\logo-white.png" />
     <Content Include="Content\images\icon\logo.png" />
     <Content Include="Content\images\icon\Untitled-1.jpg" />
+    <Content Include="Content\images\mylogo.jpg" />
     <Content Include="Content\js\main.js" />
     <Content Include="Content\rating.css" />
     <Content Include="Content\vendor\animsition\animsition.min.css" />

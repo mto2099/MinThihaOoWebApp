@@ -143,8 +143,18 @@
 
 
 
-
+<br />
+<br />
 <div class="row">
+    @foreach (var item in Model) {
+        @item.User.FullName
+        } , You have rented : 
+
+    @if (Session["RentBookCount"] != null)
+        {
+            @Session["RentBookCount"] 
+        }
+    Book
 </div>
 <div id="BookNew">
     @Html.ActionLink("+","Create")

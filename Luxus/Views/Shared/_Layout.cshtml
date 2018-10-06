@@ -39,6 +39,13 @@
     <link href="~/Content/css/theme.css" rel="stylesheet" media="all">
 
     <style>
+        #mynewlogo {
+            width: 100px;
+            height: 100px;
+            margin-top: 40px;
+            margin-left: 70px;
+            border: 1px solid;
+        }
         #concon {
             height: 900px;
             background-color: #fff1e5;
@@ -207,19 +214,21 @@
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block" id="navcolor">
             <div class="logo" id="logocolor">
-                <a href="#" id="logoidcolor">
+                @*<a href="#" id="logoidcolor">*@
                     @*@foreach (var item in Model) {
                     @item.User.FullName
                     }*@
 
-                    @if (Session["RentBookCount"] != null)
+                    @*@if (Session["RentBookCount"] != null)
                     {
                         @Session["RentBookCount"]
-                    }
+                    }*@
 
 
                     
-                </a>
+                @*</a>*@
+
+                <img src="~/Content/images/mylogo.jpg" id="mynewlogo">
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
